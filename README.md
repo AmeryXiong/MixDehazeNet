@@ -7,3 +7,11 @@ Image dehazing is a typical task in the low-level vision field. Previous studies
 ![image](https://github.com/AmeryXiong/MixDehazeNet/assets/102467128/5d087804-0b5c-4232-8f73-8296de5b8374)
 
 
+Lastest Additional Expriment Result:
+
+
+
+News! This is pretrain weight(google driver):
+https://drive.google.com/drive/folders/1ep6W4H3vNxshYjq71Tb3MzxrXGgaiM6C?usp=drive_link
+
+
