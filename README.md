@@ -1,3 +1,5 @@
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://doi.org/10.48550/arXiv.2305.17654)
+[![Weights](https://img.shields.io/badge/GoogleDrive-Weights-yellow)](https://drive.google.com/drive/folders/1ep6W4H3vNxshYjq71Tb3MzxrXGgaiM6C?usp=drive_link)
 # MixDehazeNet : Mix Structure Block For Image Dehazing Network
 
 >**Abstract:**
