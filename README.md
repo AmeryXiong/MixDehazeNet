@@ -3,6 +3,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixdehazenet-mix-structure-block-for-image/image-dehazing-on-sots-indoor)](https://paperswithcode.com/sota/image-dehazing-on-sots-indoor?p=mixdehazenet-mix-structure-block-for-image)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixdehazenet-mix-structure-block-for-image/image-dehazing-on-sots-outdoor)](https://paperswithcode.com/sota/image-dehazing-on-sots-outdoor?p=mixdehazenet-mix-structure-block-for-image)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixdehazenet-mix-structure-block-for-image/image-dehazing-on-reside-6k)](https://paperswithcode.com/sota/image-dehazing-on-reside-6k?p=mixdehazenet-mix-structure-block-for-image)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixdehazenet-mix-structure-block-for-image/image-dehazing-on-haze4k)](https://paperswithcode.com/sota/image-dehazing-on-haze4k?p=mixdehazenet-mix-structure-block-for-image)
 
 # MixDehazeNet : Mix Structure Block For Image Dehazing Network
 
