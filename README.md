@@ -16,8 +16,9 @@ Image dehazing is a typical task in the low-level vision field. Previous studies
 ## Old Expriment Result:
 ![image](https://github.com/AmeryXiong/MixDehazeNet/assets/102467128/5d087804-0b5c-4232-8f73-8296de5b8374)
 
-## Lastest Expriment Result:
+## Lastest Expriment Result (In new Vision but in process):
 ![image](https://github.com/AmeryXiong/MixDehazeNet/assets/102467128/e5df99e5-37f2-4a83-83bf-ca270a5d7e14)
+![image](https://github.com/AmeryXiong/MixDehazeNet/assets/102467128/1e59ce32-75f8-4d3f-8f63-8766524af540)
 
 ## About dataset:
 Since my code refers to [Dehazeformer](https://github.com/IDKiro/DehazeFormer#vision-transformers-for-single-image-dehazing), the dataset format is the same as that in Dehazeformer. In order to avoid errors when training the datasets, please download the datasets from [Dehazeformer](https://github.com/IDKiro/DehazeFormer#vision-transformers-for-single-image-dehazing) for training.
