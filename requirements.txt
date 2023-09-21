@@ -1,6 +1,0 @@
-opencv-python==4.5.5.62
-tqdm
-pytorch-msssim
-timm
-tensorboard
-tensorboardx
