@@ -14,10 +14,14 @@ Image dehazing is a typical task in the low-level vision field. Previous studies
 ## Lastest Expriment Result:
 ![image](https://github.com/AmeryXiong/MixDehazeNet/assets/102467128/e5df99e5-37f2-4a83-83bf-ca270a5d7e14)
 
-## About dataset: Since my code refers to [Dehazeformer](https://github.com/IDKiro/DehazeFormer#vision-transformers-for-single-image-dehazing), the dataset format is the same as that in Dehazeformer. In order to avoid errors when training the datasets, please download the datasets from [Dehazeformer](https://github.com/IDKiro/DehazeFormer#vision-transformers-for-single-image-dehazing) for training.
+## About dataset:
+Since my code refers to [Dehazeformer](https://github.com/IDKiro/DehazeFormer#vision-transformers-for-single-image-dehazing), the dataset format is the same as that in Dehazeformer. In order to avoid errors when training the datasets, please download the datasets from [Dehazeformer](https://github.com/IDKiro/DehazeFormer#vision-transformers-for-single-image-dehazing) for training.
 
 ## This is pretrain weights (google driver):
 https://drive.google.com/drive/folders/1ep6W4H3vNxshYjq71Tb3MzxrXGgaiM6C?usp=drive_link
+
+## Help:
+If you have any questions, you can send email to xiongqian2021@whut.edu.cn or xiongqian2019@outlook.com.
 
 ## Thanks
 Special Thanks to my supervisor and @[IDKiro](https://github.com/IDKiro), they gave me selfless help in completing this work and answered my questions. Thank you very much.
