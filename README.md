@@ -1,5 +1,8 @@
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://doi.org/10.48550/arXiv.2305.17654)
 [![Weights](https://img.shields.io/badge/GoogleDrive-Weights-yellow)](https://drive.google.com/drive/folders/1ep6W4H3vNxshYjq71Tb3MzxrXGgaiM6C?usp=drive_link)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixdehazenet-mix-structure-block-for-image/image-dehazing-on-sots-indoor)](https://paperswithcode.com/sota/image-dehazing-on-sots-indoor?p=mixdehazenet-mix-structure-block-for-image)
+
+
 # MixDehazeNet : Mix Structure Block For Image Dehazing Network
 
 >**Abstract:**
