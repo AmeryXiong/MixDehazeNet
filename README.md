@@ -23,6 +23,9 @@ Image dehazing is a typical task in the low-level vision field. Previous studies
 ## About dataset:
 Since my code refers to [Dehazeformer](https://github.com/IDKiro/DehazeFormer#vision-transformers-for-single-image-dehazing), the dataset format is the same as that in Dehazeformer. In order to avoid errors when training the datasets, please download the datasets from [Dehazeformer](https://github.com/IDKiro/DehazeFormer#vision-transformers-for-single-image-dehazing) for training.
 
+NH-Haze and Dense-Haze datasets (From [Dehazeformer](https://github.com/IDKiro/DehazeFormer#vision-transformers-for-single-image-dehazing)):
+https://drive.google.com/drive/folders/1NjLhzVZv2OZfs8DA6jMtGecLya_Gg9U_?usp=sharing
+
 ## This is pretrain weights (google driver):
 https://drive.google.com/drive/folders/1ep6W4H3vNxshYjq71Tb3MzxrXGgaiM6C?usp=drive_link
 
