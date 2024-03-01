@@ -11,10 +11,10 @@ from models import *
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--model', default='AECRNet', type=str, help='model name')
+parser.add_argument('--model', default='MixDehazeNet-l', type=str, help='model name')
 parser.add_argument('--num_workers', default=16, type=int, help='number of workers')
 parser.add_argument('--data_dir', default='./data/', type=str, help='path to dataset')
-parser.add_argument('--save_dir', default='./saved_models/aecr-net/', type=str, help='path to models saving')
+parser.add_argument('--save_dir', default='./saved_models/MixDehazeNet-l/', type=str, help='path to models saving')
 parser.add_argument('--result_dir', default='./results/', type=str, help='path to results saving')
 parser.add_argument('--folder', default='RESIDE-IN/test', type=str, help='folder name')
 parser.add_argument('--exp', default='', type=str, help='experiment setting')
@@ -22,7 +22,7 @@ args = parser.parse_args()
 
 
 def single(save_dir):
-	state_dict = torch.load(save_dir)['model']
+	state_dict = torch.load(save_dir)['state_dict']
 	new_state_dict = OrderedDict()
 
 	for k, v in state_dict.items():
@@ -48,30 +48,27 @@ def test(test_loader, network, result_dir):
 			output = output * 0.5 + 0.5		# [-1, 1] to [0, 1]
 
 		out_img = chw_to_hwc(output.detach().cpu().squeeze(0).numpy())
+		# print(os.path.join(result_dir, filename))
 		write_img(os.path.join(result_dir, filename), out_img)
 		
 
 if __name__ == '__main__':
-	# network = eval(args.model.replace('-', '_'))(3,3)
-	network = eval("Dehaze")(3, 3)
+	network = eval(args.model.replace('-', '_'))()
 	network.cuda()
-	saved_model_dir = os.path.join(args.save_dir, args.exp, args.model+'.pk')
+	saved_model_dir = os.path.join(args.save_dir, args.exp, args.model+'.pth')
 
+	print(saved_model_dir)
 	if os.path.exists(saved_model_dir):
 		print('==> Start testing, current model name: ' + args.model)
 		network.load_state_dict(single(saved_model_dir))
-		# network.load_state_dict(torch.load(saved_model_dir)['model'])
 	else:
 		print('==> No existing trained model!')
 		exit(0)
 
 	dataset_dir = os.path.join(args.data_dir, args.folder)
 
+	print(dataset_dir)
 	test_dataset = SingleLoader(dataset_dir)
-	test_loader = DataLoader(test_dataset,
-							 batch_size=1,
-							 num_workers=args.num_workers,
-							 pin_memory=True)
-
+	test_loader = DataLoader(test_dataset,batch_size=1,num_workers=args.num_workers,pin_memory=True)
 	result_dir = os.path.join(args.result_dir, args.folder, args.model)
 	test(test_loader, network, result_dir)
