@@ -13,10 +13,13 @@ Image dehazing is a typical task in the low-level vision field. Previous studies
 ## Framework:
 ![image](https://github.com/AmeryXiong/MixDehazeNet/assets/102467128/885f69da-ab72-4c9c-8223-1b7425e98d3a)
 
+## News
+Mar 15,2024:Paper accepted by IEEE IJCNN. The final version of this paper will be updated after the conference is completed on July 5. 
+
 ## Old Expriment Result:
 ![image](https://github.com/AmeryXiong/MixDehazeNet/assets/102467128/5d087804-0b5c-4232-8f73-8296de5b8374)
 
-## Lastest Expriment Result (In new Vision but in process):
+## Lastest Expriment Result (New Vision):
 ![image](https://github.com/AmeryXiong/MixDehazeNet/assets/102467128/e5df99e5-37f2-4a83-83bf-ca270a5d7e14)
 ![image](https://github.com/AmeryXiong/MixDehazeNet/assets/102467128/1e59ce32-75f8-4d3f-8f63-8766524af540)
 
