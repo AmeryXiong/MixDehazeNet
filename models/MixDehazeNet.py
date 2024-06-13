@@ -16,7 +16,7 @@ class MixStructureBlock(nn.Module):
         self.conv3_13 = nn.Conv2d(dim, dim, kernel_size=5, padding=6, groups=dim, dilation=3, padding_mode='reflect')
         self.conv3_7 = nn.Conv2d(dim, dim, kernel_size=3, padding=3, groups=dim, dilation=3, padding_mode='reflect')
 
-        # Simple Channel Attention
+        # Simple Pixel Attention
         self.Wv = nn.Sequential(
             nn.Conv2d(dim, dim, 1),
             nn.Conv2d(dim, dim, kernel_size=3, padding=3 // 2, groups=dim, padding_mode='reflect')
