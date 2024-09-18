@@ -1,4 +1,5 @@
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://doi.org/10.1109/IJCNN60899.2024.10651326)
+[![paper](https://img.shields.io/badge/Paper-IEEE%20IJCNN-blue)](https://doi.org/10.1109/IJCNN60899.2024.10651326)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://doi.org/10.48550/arXiv.2305.17654)
 [![Weights](https://img.shields.io/badge/GoogleDrive-Weights-yellow)](https://drive.google.com/drive/folders/1ep6W4H3vNxshYjq71Tb3MzxrXGgaiM6C?usp=drive_link)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixdehazenet-mix-structure-block-for-image/image-dehazing-on-sots-indoor)](https://paperswithcode.com/sota/image-dehazing-on-sots-indoor?p=mixdehazenet-mix-structure-block-for-image)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixdehazenet-mix-structure-block-for-image/image-dehazing-on-sots-outdoor)](https://paperswithcode.com/sota/image-dehazing-on-sots-outdoor?p=mixdehazenet-mix-structure-block-for-image)
