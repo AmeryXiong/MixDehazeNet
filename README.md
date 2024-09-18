@@ -1,4 +1,4 @@
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://doi.org/10.48550/arXiv.2305.17654)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://doi.org/10.1109/IJCNN60899.2024.10651326)
 [![Weights](https://img.shields.io/badge/GoogleDrive-Weights-yellow)](https://drive.google.com/drive/folders/1ep6W4H3vNxshYjq71Tb3MzxrXGgaiM6C?usp=drive_link)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixdehazenet-mix-structure-block-for-image/image-dehazing-on-sots-indoor)](https://paperswithcode.com/sota/image-dehazing-on-sots-indoor?p=mixdehazenet-mix-structure-block-for-image)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixdehazenet-mix-structure-block-for-image/image-dehazing-on-sots-outdoor)](https://paperswithcode.com/sota/image-dehazing-on-sots-outdoor?p=mixdehazenet-mix-structure-block-for-image)
@@ -41,11 +41,13 @@ Special Thanks to my supervisor and @[IDKiro](https://github.com/IDKiro), they g
 ## Citation
 If you find this work useful for your research, please cite our paper:
 ```bibtex
-@article{Mixdehazenet,
-  title={MixDehazeNet: Mix Structure Block For Image Dehazing Network},
-  author={Lu, LiPing and Xiong, Qian and Chu, DuanFeng and Xu, BingRong},
-  journal={arXiv preprint arXiv:2305.17654},
-  year={2023}
+@inproceedings{lu2024mixdehazenet,
+  title={Mixdehazenet: Mix structure block for image dehazing network},
+  author={Lu, LiPing and Xiong, Qian and Xu, Bingrong and Chu, Duanfeng},
+  booktitle={2024 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--10},
+  year={2024},
+  organization={IEEE}
 }
 ```
 
